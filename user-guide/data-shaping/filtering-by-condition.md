@@ -17,39 +17,29 @@ The conditions you can choose from depend on the kind of data the field holds.
 
 ### Numbers
 
-<table>
-<thead>
-<tr><th>Condition</th><th>What it shows</th></tr>
-</thead>
-<tbody>
-<tr><td>**Equal**</td><td>Numbers equal to the value you specify.</td></tr>
-<tr><td>**Not equal**</td><td>Numbers not equal to the value you specify.</td></tr>
-<tr><td>**Greater**</td><td>Numbers greater than the value you specify.</td></tr>
-<tr><td>**Greater or equal**</td><td>Numbers greater than or equal to the value you specify.</td></tr>
-<tr><td>**Less**</td><td>Numbers less than the value you specify.</td></tr>
-<tr><td>**Less or equal**</td><td>Numbers less than or equal to the value you specify.</td></tr>
-<tr><td>**Between**</td><td>Numbers inside the range you specify, including the range boundaries.</td></tr>
-<tr><td>**Not between**</td><td>Numbers outside the range you specify, excluding the range boundaries.</td></tr>
-</tbody>
-</table>
+| Condition | What it shows |
+| --- | --- |
+| **Equal** | Numbers equal to the value you specify. |
+| **Not equal** | Numbers not equal to the value you specify. |
+| **Greater** | Numbers greater than the value you specify. |
+| **Greater or equal** | Numbers greater than or equal to the value you specify. |
+| **Less** | Numbers less than the value you specify. |
+| **Less or equal** | Numbers less than or equal to the value you specify. |
+| **Between** | Numbers inside the range you specify, including the range boundaries. |
+| **Not between** | Numbers outside the range you specify, excluding the range boundaries. |
 
 ### Text
 
-<table>
-<thead>
-<tr><th>Condition</th><th>What it shows</th></tr>
-</thead>
-<tbody>
-<tr><td>**Equal**</td><td>Text equal to the value you specify.</td></tr>
-<tr><td>**Not equal**</td><td>Text not equal to the value you specify.</td></tr>
-<tr><td>**Begin**</td><td>Text that begins with the value you specify.</td></tr>
-<tr><td>**Not begin**</td><td>Text that doesn't begin with the value you specify.</td></tr>
-<tr><td>**End**</td><td>Text that ends with the value you specify.</td></tr>
-<tr><td>**Not end**</td><td>Text that doesn't end with the value you specify.</td></tr>
-<tr><td>**Contain**</td><td>Text that contains the value you specify.</td></tr>
-<tr><td>**Not contain**</td><td>Text that doesn't contain the value you specify.</td></tr>
-</tbody>
-</table>
+| Condition | What it shows |
+| --- | --- |
+| **Equal** | Text equal to the value you specify. |
+| **Not equal** | Text not equal to the value you specify. |
+| **Begin** | Text that begins with the value you specify. |
+| **Not begin** | Text that doesn't begin with the value you specify. |
+| **End** | Text that ends with the value you specify. |
+| **Not end** | Text that doesn't end with the value you specify. |
+| **Contain** | Text that contains the value you specify. |
+| **Not contain** | Text that doesn't contain the value you specify. |
 
 ## Configure the filter
 
