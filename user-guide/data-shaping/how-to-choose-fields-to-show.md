@@ -39,15 +39,19 @@ Measures are shown in the **Columns** box by default. To display them in the row
 
 <h3 id="rearrange-fields-in-the-pivot-table">In the pivot table</h3>
 
-**Step 1.** Change the order of fields within the **Rows**, **Columns**, or **Values** box by dragging them up or down.
+**Step 1.** Open the field list if necessary.
 
-**Step 2.** Select **Apply** in the field list.
+**Step 2.** Сhange the order of fields within the **Rows**, **Columns**, or **Values** areas by dragging them up or down.
+
+**Step 3.** Select **Apply** in the field list.
 
 <h3 id="rearrange-fields-in-the-flat-table">In the flat table</h3>
 
-**Step 1.** Drag a field up or down to change the order of the columns.
+**Step 1.** Open the field list if necessary.
 
-**Step 2.** Select **Apply** in the field list.
+**Step 2.** Drag a field to change its order.
+
+**Step 3.** Select **Apply** in the field list.
 
 ## Remove fields
 
