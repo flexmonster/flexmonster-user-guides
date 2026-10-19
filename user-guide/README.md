@@ -1,0 +1,57 @@
+# Flexmonster user guide
+
+This repo contains end-user documentation for the Flexmonster UI.
+
+The pages are the same ones published in the [Flexmonster user guide](https://www.flexmonster.com/user-guide/intro), converted to plain markdown so you can bring them into your own product's documentation.
+
+You can use them in two ways:
+
+- **Copy them as they are.** The pages are ready to use and work in any markdown-based docs tool.
+- **Adapt them to your product.** Change the wording, remove the features you don't expose, and add your own screenshots and branding.
+
+## What's inside
+
+[`intro.md`](intro.md) is the landing page of the guide.
+
+| Folder | Pages |
+| --- | --- |
+| [`connecting-to-data/`](connecting-to-data) | Connecting to CSV and JSON data |
+| [`data-shaping/`](data-shaping) | Choosing fields, expanding data, aggregations, sorting, filtering by members and by condition, report filters |
+| [`configuring-fields/`](configuring-fields) | Renaming field captions |
+| [`layouts-and-controls/`](layouts-and-controls) | Grid layouts, Toolbar, Field list, Filter view |
+| [`saving-and-restoring/`](saving-and-restoring) | Saving and restoring reports |
+| [`assets/`](assets) | The images, videos, and icons the pages use |
+
+## Getting started
+
+1. Clone the repository, or download it as a ZIP:
+
+   ```bash
+   git clone https://github.com/flexmonster/flexmonster-user-guides.git
+   ```
+
+2. Copy the `user-guide/` folder into your documentation project. Keep the `assets/` folder next to the pages: every image, video, and icon is linked with a relative path, so the folder works wherever you put it.
+
+3. Add the pages to your docs tool's navigation.
+
+The pages are standard markdown with no custom components. Each page starts with a front matter block:
+
+```yaml
+---
+title: Sorting
+permalink: /user-guide/sorting
+---
+```
+
+If yours uses a different key for the URL, rename `permalink` or remove it.
+
+## Staying up to date
+
+This repository is synced automatically from the Flexmonster documentation. Each sync is a separate commit, which makes it easy to see what changed.
+
+- If you copied the pages as they are, copy the folder again to pick up the updates.
+- If you adapted the pages, compare the new commits against the version you started from (`git diff <old-commit> <new-commit> -- user-guide/`) and apply the relevant changes to your copy by hand.
+
+## Questions and feedback
+
+If you find a mistake in the pages, or have a question about using them, contact [Flexmonster support](https://www.flexmonster.com/technical-support/).
