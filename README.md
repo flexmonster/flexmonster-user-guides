@@ -15,11 +15,11 @@ You can use them in two ways:
 
 | Folder | Pages |
 | --- | --- |
-| [`connecting-to-data/`](connecting-to-data) | Connecting to CSV and JSON data |
-| [`data-shaping/`](data-shaping) | Choosing fields, expanding data, aggregations, sorting, filtering by members and by condition, report filters |
-| [`configuring-fields/`](configuring-fields) | Renaming field captions |
-| [`layouts-and-controls/`](layouts-and-controls) | Grid layouts, Toolbar, Field list, Filter view |
-| [`saving-and-restoring/`](saving-and-restoring) | Saving and restoring reports |
+| [`configuring-fields/`](configuring-fields) | [Renaming field captions](configuring-fields/renaming-field-captions.md) |
+| [`connecting-to-data/`](connecting-to-data) | [Connect to CSV data](connecting-to-data/connect-to-csv.md), [Connect to JSON data](connecting-to-data/connect-to-json.md) |
+| [`data-shaping/`](data-shaping) | [Aggregation functions](data-shaping/aggregations.md), [Expanding the data](data-shaping/expanding-data.md), [Filtering by condition](data-shaping/filtering-by-condition.md), [Filtering by members](data-shaping/filtering-by-members.md), [How to choose fields to show](data-shaping/how-to-choose-fields-to-show.md), [Report filters](data-shaping/report-filters.md), [Sorting](data-shaping/sorting.md) |
+| [`layouts-and-controls/`](layouts-and-controls) | [Field list](layouts-and-controls/field-list.md), [Filter view](layouts-and-controls/filter-view.md), [Grid layouts](layouts-and-controls/grid-layouts.md), [Toolbar](layouts-and-controls/toolbar.md) |
+| [`saving-and-restoring/`](saving-and-restoring) | [Saving and restoring reports](saving-and-restoring/saving-and-restoring-reports.md) |
 | [`assets/`](assets) | The images, videos, and icons the pages use |
 
 ## Getting started
